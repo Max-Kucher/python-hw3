@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "python_devops"
+version = "0.1.0"
+description = "Password changer and generator code"
+authors = ["MaxKucher"]
+license = "Unlicensed"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+flake8 = "^6.0.0"
+wemake-python-styleguide = "^0.18.0"
+pre-commit = "^3.3.3"
+pytest = "^7.4.0"
+flake8-isort = "^6.0.0"
+attrs = "^23.1.0"
+setuptools = "^68.0.0"
+mypy = "^1.4.1"
+autopep8 = "^2.0.2"
+nitpick = "^0.33.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
